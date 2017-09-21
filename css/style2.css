@@ -7,7 +7,7 @@
 }
 
 body  {
-	background: #fff;
+	background:#00FF00;
 }
 
 
@@ -19,8 +19,8 @@ body  {
 	height: 0;
 	border-width: 0px;
 	border-style: solid;
-	border-color: #333;
-	background-color: rgba(0,0,0,0);
+	border-color:#000000;
+	background-color: rgba(255,255,255,0.5);
 	-webkit-backface-visibility: hidden;
 	-webkit-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
 	transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
@@ -28,8 +28,8 @@ body  {
 
 .bt-menu.bt-menu-open {
 	height: 100%;
-	border-width: 30px 30px 30px 90px;
-	background-color: rgba(0,0,0,0.3);
+	border-width: 0px 0px 0px 80px;
+	background-color:rgba(0,0,0,0.1);
 	-webkit-transition: border-width 0.3s, background-color 0.3s;
 	transition: border-width 0.3s, background-color 0.3s;
 }
@@ -61,7 +61,7 @@ body  {
 	width: 100%;
 	height: 4px;
 	margin-top: -2px;
-	background-color: #ff5e05;
+	background-color:#000000;;
 	font-size: 0px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -84,7 +84,7 @@ body  {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #ff5e05;
+	background:#cccccc;    
 	content: '';
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
@@ -164,7 +164,7 @@ body  {
 }
 
 .bt-menu.bt-menu-open ul li {
-	visibility: visible;
+	visibility:visible;
 	opacity: 1;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s 0.1s;
 	transition: transform 0.3s, opacity 0.3s;
@@ -181,7 +181,7 @@ body  {
 }
 
 .bt-menu ul li a i:before {
-	color: #d26748;
+	color:#FFFFFF;
 	font-size: 48px;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
